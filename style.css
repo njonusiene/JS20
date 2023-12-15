@@ -58,3 +58,22 @@ input {
 input::placeholder{
     color: #192655;
 }
+
+#notification {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#notification.success {
+    background-color: #4f6f52ef;
+    color: white;
+    border-radius: 30px;
+}
+
+#notification.error {
+    background-color: #f44336b0;
+    border-radius: 30px;
+    color: white;
+}
